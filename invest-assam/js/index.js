@@ -9,9 +9,9 @@ var $messages = $('.messages-content'),
 
 $(window).load(function() {
   $messages.mCustomScrollbar();
- /*  setTimeout(function() {
-    fakeMessage();
-  }, 100); */
+   setTimeout(function() {
+    fakeMessage("Hey..!!");
+  }, 100); 
 });
 
 function updateScrollbar() {
