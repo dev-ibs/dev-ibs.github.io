@@ -12,8 +12,7 @@ Body
 
 html,
 body {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
 }
 
 body {
@@ -64,7 +63,7 @@ Chat
 Chat Title
 --------------------*/
 .chat-title {
-  flex: 0 1 10%;
+  flex: 0 1 45px;
   position: relative;
   z-index: 2;
   background: rgba(0, 0, 0, 0.2);
@@ -259,7 +258,7 @@ Messages
 Message Box
 --------------------*/
 .message-box {
-  flex: 0 1 10%;
+  flex: 0 1 40px;
   width: 100%;
   background: rgba(0, 0, 0, 0.3);
   padding: 10px;
