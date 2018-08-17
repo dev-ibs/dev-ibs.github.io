@@ -1,4 +1,4 @@
-alert("js loaded");
+//alert("js loaded");
 
 var $messages = $('.messages-content'),
     d, h, m,
@@ -11,9 +11,9 @@ var $messages = $('.messages-content'),
 
 $(window).load(function() {
   $messages.mCustomScrollbar();
-   setTimeout(function() {
+/*   setTimeout(function() {
     fakeMessage("Hey..!!");
-  }, 100); 
+  }, 100); */
 });
 
 function updateScrollbar() {
