@@ -258,7 +258,7 @@ Messages
 Message Box
 --------------------*/
 .message-box {
-  flex: 0 1 80px;
+  flex: 0 1 20px;
   width: 100%;
   background: rgba(0, 0, 0, 0.3);
   padding: 10px;
